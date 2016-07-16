@@ -11,3 +11,10 @@ print(students['phone'])
 print(students['date_of_birth'])
 age = date.today().year - students['date_of_birth']
 print(age)
+
+def createstudent(name,year,phone):
+	print (name)
+	print(year)
+	print(phone)	
+
+createstudent('david njakai',1990,'075221525')
